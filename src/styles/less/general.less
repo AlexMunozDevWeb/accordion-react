@@ -1,0 +1,31 @@
+
+@white: hsl(0, 0%, 100%);
+@light-pink: hsl(275, 100%, 97%);
+@grayish-purple: hsl(292, 16%, 49%);
+@dark-purple: hsl(292, 42%, 14%);
+
+@mobile-size: 375px;
+@table-size: 768px;
+@desktop-size: 1320px;
+
+p{ font-size: 16px; }
+
+.w{
+  &-400{ font-weight: 400; }
+  &-600{ font-weight: 600; }
+  &-700{ font-weight: 700; }
+}
+
+// APP.JS
+#root{
+  .img-background{
+    object-fit: cover;
+    height: 30%;
+    max-height: 500px;
+    width: 100%;
+  }
+  .main-container{
+    background-color: @light-pink;
+    height: 100vh;
+  }
+}
