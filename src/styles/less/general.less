@@ -5,10 +5,26 @@
 @dark-purple: hsl(292, 42%, 14%);
 
 @mobile-size: 375px;
-@table-size: 768px;
+@tablet-size: 768px;
 @desktop-size: 1320px;
 
+// fonts
+@font-face {
+  font-family: 'WorkSans';
+  src: url('../assets/fonts/WorkSans-VariableFont_wght.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'WorkSans';
+  src: url('../assets/fonts/WorkSans-Italic-VariableFont_wght.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
 p{ font-size: 16px; }
+
+h1{ margin: 0; }
 
 .w{
   &-400{ font-weight: 400; }
@@ -16,16 +32,20 @@ p{ font-size: 16px; }
   &-700{ font-weight: 700; }
 }
 
+.c-title{
+  color: @dark-purple;
+}
+
 // APP.JS
 #root{
   .img-background{
     object-fit: cover;
-    height: 30%;
+    height: 30vh;
     max-height: 500px;
     width: 100%;
   }
   .main-container{
     background-color: @light-pink;
-    height: 100vh;
+    min-height: 100vh;
   }
 }
