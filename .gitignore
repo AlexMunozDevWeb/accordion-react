@@ -1,5 +1,6 @@
 node_modules
 faq-accordion-main
+dist
 
 # Editor directories and files
 .vscode/*
