@@ -1,5 +1,5 @@
 # Accordion React
-[Visualizar el proyecto](https://65d9caf81d9815ed04d89c47--quiet-bunny-25b4ed.netlify.app/)
+[Visualizar el proyecto](https://alex-full-stuck-developer.netlify.app/)
 
 ### Diseño de la aplicación en Desktop
 ![Alt text](https://github.com/AlexMunozDevWeb/accordion-react/blob/main/src/assets/images/desktopFinal.jpg "a title")
